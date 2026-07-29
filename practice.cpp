@@ -18,8 +18,6 @@ for(i=5;i>=1;i--){
 cout<<"Hurrayyyyyyyyyy!!!"<<endl;
 return 0;
 } */
-
-
 /* Question 2: Sum of First N NumbersTask: 
 Write a program that takes a number n from the user and calculates the sum of all numbers from 1 up to n.
 Example Input: 4 (Calculates 1 + 2 + 3 + 4)
