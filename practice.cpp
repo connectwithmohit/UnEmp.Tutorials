@@ -21,7 +21,7 @@ return 0;
 /* Question 2: Sum of First N NumbersTask: 
 Write a program that takes a number n from the user and calculates the sum of all numbers from 1 up to n.
 Example Input: 4 (Calculates 1 + 2 + 3 + 4)
-Example Output: The total sum is: 10 */
+Example Output: The total sum is: 10 */ 
 
 #include<stdio.h>
 #include<iostream>
@@ -31,7 +31,7 @@ int main(){
     cout<<"Enter number :";
     cin>>n;
     for(i=1;i<=n;i++){
-    sum=sum+i; }
+    sum += i; }
         cout<<"sum of "<<n<<" is: "<<sum<<endl;
     return 0;
 }
